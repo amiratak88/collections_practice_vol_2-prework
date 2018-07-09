@@ -51,7 +51,7 @@ def organize_schools(hash)
   res = {}
     hash.each do |school, location_hash|
       if res.key?(location_hash.values[0])
-        
+        res[location_hash.values[0]] << school
       else
         
       end
