@@ -53,7 +53,7 @@ def organize_schools(hash)
       if res.key?(location_hash.values[0])
         res[location_hash.values[0]] << school
       else
-        
+        res[location_hash.values[0]] = [school]
       end
     end
   res
