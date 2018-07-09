@@ -47,9 +47,9 @@ def find_cool(arr)
   res
 end
 
-def organize_schools(arr)
+def organize_schools(hash)
   res = {}
-    arr.each do ||
+    hash.each do ||
       
     end
   res
